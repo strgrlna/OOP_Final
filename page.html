@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Greece | More Travel Info</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="main.js"></script>
+  </head>
+  <!--background vid-->
+  <div class="bg">
+    <video autoplay loop muted plays-inline class="back-video">
+        <source src="santorini.mp4" type="video/mp4">
+    </video>
+  </div>
+  <body>
+    <!--navigation button-->
+    <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="explore.html">EXPLORE</a></li>
+          <li><a href="sec.html">FOOD</a></li>
+          <li><a href="page.html">TRAVEL INFO</a></li>
+        </ul>
+    </nav>
+    <!--open weather map-->
+    <div class="big1">
+      <!--page title and description-->
+       <h1>Greece Info</h1> 
+       <h2>Greece travel information</h2>
+       <div class="boxx">
+        <!--open weather map input-->
+        <div class="form">
+          <input id="countryInput" type="text" placeholder="Enter Greece">
+          <button onclick="buttonClicked()">Enter</button>
+        </div>
+        <!--open weather map output-->
+        <p id="display1"></p>
+        <p id="display2"></p>
+        <p id="display3"></p>
+        <p id="display4"></p>
+        <p id="display5"></p>
+        <p id="display6"></p>
+        <p id="display7"></p>
+        <p id="display8"></p>
+       </div>
+    </div>
+  </body>
+</html>

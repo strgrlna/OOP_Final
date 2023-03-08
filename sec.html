@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Greece | Food Recipes</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="sec.js"></script>
+  </head>
+  <body>
+    <!--background vid-->
+    <div class="bg">
+      <video autoplay loop muted plays-inline class="back-video">
+          <source src="santorini.mp4" type="video/mp4">
+      </video>
+    </div>
+    <!--navigation button-->
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="explore.html">EXPLORE</a></li>
+        <li><a href="sec.html">FOOD</a></li>
+        <li><a href="page.html">TRAVEL INFO</a></li>
+      </ul>
+    </nav>
+    <!--MealDb-->
+    <div class="big1">
+      <!--Meal Title and description-->
+      <h1>Greece Food Recipes</h1>
+      <h2>Greece local food to make!</h2>
+      <div class="boxs">
+        <!--meal recipes dropdown button-->
+        <div class="form">
+          <select name="strMeal" id="mealInput">
+            <option value="Moussaka">Moussaka</option>
+            <option value="Garides Saganaki">Garides Saganaki</option>
+            <option value="Honey Yogurt Cheesecake">Honey Yogurt Cheesecake</option>
+            <option value="Stuffed Lamb Tomatoes">Stuffed Lamb Tomatoes</option>
+            <option value="Lamb and Lemon Souvlaki">Lamb and Lemon Souvlaki</option>
+            <option value="Lamb Tzatziki Burgers">Lamb Tzatziki Burgers</option>
+            <option value="Chicken Quinoa Greek Salad">Chicken Quinoa Greek Salad</option>
+            <option value="Gigantes Plaki">Gigantes Plaki</option>
+          </select>
+          <button onclick="buttonEnter()">Enter</button>
+        </div>
+        <!--dropdown pick output-->
+        <p id="display1"></p>
+        <p id="display2"></p>
+        <p id="display3"></p>
+        <p id="display4"></p>
+        <p id="display5"></p>
+        <img src="" id="display6" alt="">
+      </div>
+    </div>
+  </body>
+</html>

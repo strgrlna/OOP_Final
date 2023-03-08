@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greece | Explore</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="sec.js"></script>
+</head>
+<body>
+    <!--background vid-->
+    <div class="bg">
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="santorini.mp4" type="video/mp4">
+        </video>
+    </div>
+    <!--navigation button-->
+    <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="explore.html">EXPLORE</a></li>
+          <li><a href="sec.html">FOOD</a></li>
+          <li><a href="page.html">TRAVEL INFO</a></li>
+        </ul>
+    </nav>
+    <!--tittle and description-->
+    <div class="big">
+        <h1>Greece Attractions</h1>
+        <h2>Places to go in Greece!</h2>
+    </div>
+    <!--image slider-->
+    <div class="container">
+        <div class="slider">
+            <input type="radio" class="radio" name="images" id="radio-1" checked>
+            <input type="radio" class="radio" name="images" id="radio-2" checked>
+            <input type="radio" class="radio" name="images" id="radio-3" checked>
+            <input type="radio" class="radio" name="images" id="radio-4" checked>
+            <input type="radio" class="radio" name="images" id="radio-5" checked>
+            <!--image slider title, description and pictures-->
+            <div class="slide" id="slide-1">
+                <img src="santorini.jpg" alt="">
+                <div class="caption"><span>Santorini is one of the Cyclades islands in the Aegean Sea.</span>Santorini</div>
+            </div>
+            <div class="slide" id="slide-2">
+                <img src="andros.jpg" alt="">
+                <div class="caption"><span>Andros is the northernmost island of the Greek Cyclades archipelago, about 10 km southeast of Euboea.</span>Andros</div>
+            </div>
+            <div class="slide" id="slide-3">
+                <img src="corinth.jpg" alt="">
+                <div class="caption"><span>Corinth is the successor to an ancient city and is a former municipality in Corinthia, Peloponnese.</span>Corinth</div>
+            </div>
+            <div class="slide" id="slide-4">
+                <img src="corfu.jpg" alt="">
+                <div class="caption"><span>Corfu, an island off Greece's northwest coast in the Ionian Sea.</span>Corfu</div>
+            </div>
+            <div class="slide" id="slide-5">
+                <img src="naxos.jpg" alt="">
+                <div class="caption"><span>Naxos is a Greek island in the South Aegean, the largest of the Cyclades island group.</span>Naxos</div>
+            </div>
+            <!--image slider dots button-->
+            <div class="dots">
+                <label for="radio-1" id="label-1"></label>
+                <label for="radio-2" id="label-2"></label>
+                <label for="radio-3" id="label-3"></label>
+                <label for="radio-4" id="label-4"></label>
+                <label for="radio-5" id="label-5"></label>
+            </div>
+        </div>
+</body>
+</html>
